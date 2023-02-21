@@ -8,17 +8,19 @@ test("should be transform array of objects", () => {
       {
         entity_id: "1",
         entity_title: "My 1st post",
+        entity_rate: 4.3,
       },
       {
         entity_id: "2",
         entity_title: "My 2nd post",
+        entity_rate: 4.9,
       },
     ],
   });
   expect(blog).toBeInstanceOf(Blog);
   expect(blog.posts).toBeInstanceOf(Array<Post>);
   expect(blog.posts).toEqual([
-    { id: "1", title: "My 1st post" },
-    { id: "2", title: "My 2nd post" },
+    { id: "1", title: "My 1st post", rate: 4.3 },
+    { id: "2", title: "My 2nd post", rate: 4.9 },
   ]);
 });

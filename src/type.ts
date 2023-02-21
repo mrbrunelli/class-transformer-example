@@ -13,4 +13,7 @@ export class Post {
 
   @Expose({ name: "entity_title" })
   title: string;
+
+  @Expose({ name: "entity_rate" })
+  rate: number;
 }
