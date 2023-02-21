@@ -1,0 +1,19 @@
+{
+  "name": "class-transformer-examples",
+  "version": "1.0.0",
+  "description": "Examples of class transform use",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --run",
+    "tdd": "vitest dev"
+  },
+  "author": "Matheus R. Brunelli",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "vitest": "^0.28.5"
+  },
+  "dependencies": {
+    "class-transformer": "^0.5.1"
+  }
+}
